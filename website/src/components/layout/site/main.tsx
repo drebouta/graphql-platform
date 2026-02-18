@@ -40,7 +40,7 @@ export const Main: FC<PropsWithChildren<unknown>> = ({ children }) => {
 
       headlineElement?.scrollIntoView();
     }
-  });
+  }, []);
 
   const scrollToTop = () => {
     window.scrollTo({
